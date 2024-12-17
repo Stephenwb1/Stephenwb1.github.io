@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ascii Website</title>
+        <link href="style.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <h1>Ascii Photo Generator</h1>
+        <p id="explain">Upload a photo below to generate an ASCII image</p>
+    
+        <input type="file" id="imageInput" accept="image/*"/>
+        <button id="submitButton">Submit</button>
+        <br><br>
+        <canvas id="canvas" style="display: none; max-width: 300px;"></canvas>
+        <img id="preview" alt="Image Preview" style="display:none; max-width: 300px;">
+        <image id="result" alt="Final ASCII result" style="display:none; max-width:300px;">
+        <script src="backend.js"></script>
+
+    </body>
+
+    
+
+</html>
+

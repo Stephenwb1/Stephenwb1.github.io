@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+}
+
+#explain {
+    text-align: center;
+}
+
+#canvas {
+    float: left;
+}
+
+#preview {
+    float: left;
+}
+
+#result {
+    float: left;  
+    padding-left: 250px;
+}
