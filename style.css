@@ -2,8 +2,10 @@ h1 {
     text-align: center;
 }
 
-#explain {
+.explain {
     text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 #canvas {
@@ -18,3 +20,43 @@ h1 {
     float: left;  
     padding-left: 250px;
 }
+
+body {
+    background-color: rgb(77, 147, 147);
+}
+
+#inputBox {
+    font-family: 'Tahoma';
+    padding-top : 100px;
+    margin-left: calc(50vw - 768px/2 - 10px);
+}
+
+#title {
+    font-family: "Georgia";
+    font-size-adjust: 0.80;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+#titleBlock {
+    font-family: 'Verdana';
+}
+
+#ascii {
+    /*margin: 0 auto 10px auto;*/
+    width: fit-content;
+    
+
+    font-size: 11px;
+    /*
+    background-color: #000000;
+    color: #ffffff;
+    */
+    
+    background-color: #ffffff;
+    color: #000000;
+    
+    padding: 4px 5px;
+    --fs: 11px;
+}
+
