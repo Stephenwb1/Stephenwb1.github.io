@@ -7,6 +7,7 @@ const ctx = canvas.getContext("2d");
 const preview = document.getElementById("preview");
 const result = document.getElementById("result");
 const asciiImage = document.getElementById("ascii");
+const footer = document.getElementsByTagName("footer");
 
 // The number of columns we'll use in our ascii image
 const ramp = "@%#*+=-:. ";
@@ -97,6 +98,8 @@ imageInput.addEventListener("change", () => {
         return;
     }
 
+    submitButton.style.display = "block";
+
     //what happens after the file is read
     const reader = new FileReader();
     reader.onload = function(event) {
@@ -155,6 +158,7 @@ submitButton.addEventListener("click", () => {
         image.src = event.target.result;
     };
 
+    footer1.style.display="block";
     ascii.style.display="block";
     reader.readAsDataURL(file);
 
