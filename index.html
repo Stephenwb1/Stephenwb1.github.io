@@ -1,54 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Ascii Website</title>
-        <link href="style.css" rel="stylesheet"/>
-    </head>
-    <body>
-        <div id="titleBlock">
-            <h1 id="title">Ascii Photo Generator</h1>
-            <p class="explain">Upload a photo below to generate an ASCII image</p>
+<head>
+  <title>JiuJitsu Partner Finder</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="app">
+    <h1>JiuJitsu Partner Finder</h1>
+    <p class="description">
+    Training Brazilian Jiu-Jitsu is more than just a solo journey — it’s a partnership. <br><br>Whether you're a beginner learning your first armbar or a seasoned grappler sharpening your transitions, having the right training partner can make all the difference. The <strong>JiuJitsu Partner Finder</strong> helps you discover nearby sparring partners who match your experience level, physical attributes, availability, and goals.
+    <br><br>
+No more mismatched rolls. No more awkward pairings. Just the right people to help you grow, push harder, and enjoy the grind — together.
 
-            <p class="explain">Created by Stephen Wend-Bell</p>
-            <p class="explain" ><a href="https://github.com/Stephenwb1">github.com/Stephenwb1</a></p>
-            <nav>
-                <ul>
-                    <li>
-                        <strong>Home</strong>
-                    </li>
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        
-    
-        <div id="inputBox">
-            <h2>Upload Photo:</h2>
-                <table cellspacing="8">
-                    <tr>
-                        <input type="file" id="imageInput" accept="image/*"/>
-                    </tr>
-                    <tr>
-                        <button id="submitButton" style="display: none;">Submit</button>
-                    </tr>
-                </table>
-            <br><br>
-            <canvas id="canvas" style="display: none; max-width: 300px;"></canvas>
-            <!-- The img is the preview, and the pre is how we display the text-->
-            <img id="preview" alt="Image Preview" style="display:none; max-width: 300px;">      
-            <pre id="ascii" style="display: none;"></pre>
-        </div>
-        
-        <script src="backend.js"></script>
+Find your next training partner today.
+    </p>
+    <button id="findBtn">Find Partners</button>
+  </div>
 
-    </body>
-
-    <footer id="footer1">
-        <p>@StephenWB</p>
-    </footer>
-
+  <script src="js/main.js"></script>
+</body>
 </html>
-

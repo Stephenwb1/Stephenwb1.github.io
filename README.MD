@@ -1,9 +1,3 @@
-Web based image to ASCII generator
+Jiu Jitsu Partner Finder
 
-CREDITS:
-
-thanks to:
-https://marmelab.com/blog/2018/02/20/convert-image-to-ascii-art-masterpiece.html
-
-Design inspiration taken from:
-https://www.text-image.com
+visit it at Stephenwb1@github.io

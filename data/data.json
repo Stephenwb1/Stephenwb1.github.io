@@ -1,0 +1,113 @@
+[
+  {
+    "name": "Craig Jones",
+    "age": "31",
+    "location": "Austin, Texas", 
+    "distance": "500",
+    "years_training": "31",
+    "gender": "male",
+    "belt": "black",
+    "height": "180",
+    "weight": "190"
+  },
+  {
+    "name": "Jerry Lukose",
+    "age": "20",
+    "location": "Santa Cruz, California", 
+    "distance": "0",
+    "years_training": "13",
+    "gender": "male",
+    "belt": "blue",
+    "height": "185",
+    "weight": "380"
+  },
+  {
+    "name": "Jameson Spence",
+    "age": "24",
+    "location": "Santa Cruz, California", 
+    "distance": "0",
+    "years_training": "7",
+    "gender": "male",
+    "belt": "purple",
+    "height": "174",
+    "weight": "175"
+  },
+  {
+    "name": "Gabby Garcias",
+    "age": "27",
+    "location": "San Jose, California", 
+    "distance": "20",
+    "years_training": "10",
+    "gender": "female",
+    "belt": "black",
+    "height": "185",
+    "weight": "200"
+  },
+  {
+    "name": "Gina Taggart",
+    "age": "21",
+    "location": "Salinas, California", 
+    "distance": "30",
+    "years_training": "1",
+    "gender": "female",
+    "belt": "white",
+    "height": "143",
+    "weight": "115"
+  },
+  {
+    "name": "Logan Reed",
+    "age": "29",
+    "location": "Santa Cruz, California",
+    "distance": "5",
+    "years_training": "6",
+    "gender": "male",
+    "belt": "brown",
+    "height": "178",
+    "weight": "165"
+  },
+  {
+    "name": "Natalie Chen",
+    "age": "25",
+    "location": "Monterey, California",
+    "distance": "40",
+    "years_training": "3",
+    "gender": "female",
+    "belt": "blue",
+    "height": "160",
+    "weight": "130"
+  },
+  {
+    "name": "Victor Alvarez",
+    "age": "33",
+    "location": "Los Gatos, California",
+    "distance": "35",
+    "years_training": "12",
+    "gender": "male",
+    "belt": "black",
+    "height": "172",
+    "weight": "155"
+  },
+  {
+    "name": "Tasha Nguyen",
+    "age": "19",
+    "location": "Santa Cruz, California",
+    "distance": "2",
+    "years_training": "1",
+    "gender": "female",
+    "belt": "white",
+    "height": "158",
+    "weight": "120"
+  },
+  {
+    "name": "Eli Thompson",
+    "age": "22",
+    "location": "Watsonville, California",
+    "distance": "18",
+    "years_training": "4",
+    "gender": "nonbinary",
+    "belt": "blue",
+    "height": "170",
+    "weight": "145"
+  }
+
+]

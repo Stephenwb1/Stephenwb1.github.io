@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Best Matches</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <h1>Your Best Training Matches</h1>
+
+  <label for="sortSelect">Sort By:</label>
+  <select id="sortSelect">
+    <option value="relevance">Best Match (default)</option>
+    <option value="distance">Distance</option>
+    <option value="gender">Same Gender</option>
+    <option value="height">Closest Height</option>
+    <option value="weight">Closest Weight</option>
+  </select>
+
+  <div id="results">
+    <div class="partner-list" id="partnerList">
+      <!-- Cards will be injected here -->
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

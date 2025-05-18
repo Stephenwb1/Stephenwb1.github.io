@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Enter Your Info</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <h1>Enter Your Information</h1>
+  <form id="userForm">
+    <label>Name:<br><input type="text" name="name" required></label><br><br>
+    <label>Age:<br><input type="number" name="age" required></label><br><br>
+    <label>Location:<br><input type="text" name="location" required></label><br><br>
+    <label>Years Training:<br><input type="number" name="years_training" required></label><br><br>
+    <label>Gender:<br>
+      <select name="gender" required>
+        <option value="">Select</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+    </label><br><br>
+    <label>Belt:<br>
+      <select name="belt" required>
+        <option value="">Select</option>
+        <option value="white">White</option>
+        <option value="blue">Blue</option>
+        <option value="purple">Purple</option>
+        <option value="brown">Brown</option>
+        <option value="black">Black</option>
+      </select>
+    </label><br><br>
+    <label>Height (cm):<br><input type="number" name="height" required></label><br><br>
+    <label>Weight (lbs):<br><input type="number" name="weight" required></label><br><br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="js/form.js"></script>
+</body>
+</html>
